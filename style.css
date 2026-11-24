@@ -1,0 +1,17 @@
+:root { --mint: #5CE1C6; --paper: #F4F7FB; --ink: #1B1F3B; --warn: #FFD84D; --mag: #FF3D8B; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 "Space Grotesk", system-ui, sans-serif;
+       background-image: linear-gradient(rgba(27,31,59,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(27,31,59,.05) 1px, transparent 1px);
+       background-size: 40px 40px; }
+header { background: var(--ink); color: #fff; padding: 18px 16px; }
+header .in, main { max-width: 760px; margin: 0 auto; }
+header a { color: var(--mint); text-decoration: none; font-weight: 700; margin-right: 18px; }
+header .brand { color: #fff; font-size: 22px; margin-right: 28px; }
+main { padding: 32px 16px 64px; }
+h1 { font-size: 40px; line-height: 1.1; margin: 0 0 8px; }
+h2 { margin-top: 36px; }
+.chip { display: inline-block; background: var(--warn); border: 3px solid var(--ink); border-radius: 12px; padding: 2px 12px; font-weight: 700; }
+.card { background: #fff; border: 3px solid var(--ink); border-radius: 18px; padding: 20px 22px; box-shadow: 8px 8px 0 var(--ink); margin: 24px 0; }
+.note { background: #FFF7E0; border-left: 6px solid var(--warn); padding: 12px 16px; border-radius: 8px; }
+a { color: #0b7a66; }
+footer { max-width: 760px; margin: 0 auto; padding: 0 16px 40px; font-size: 14px; opacity: .75; }
